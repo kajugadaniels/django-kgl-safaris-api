@@ -14,7 +14,7 @@ SECRET_KEY = 'django-insecure-9o&e&ij%bnov04&25t9%cha)1+n-m$y@16nxhm5=s3ky74o@yh
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -195,7 +195,7 @@ JAZZMIN_SETTINGS = {
     "related_modal_active": False,
 }
 
-# CSRF_TRUSTED_ORIGINS = ['https://ijambo-ryawe.up.railway.app','https://*.127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://kgl-safaris-api.up.railway.app','https://*.127.0.0.1']
 
 CKEDITOR_UPLOAD_PATH = "uploads/"
 CKEDITOR_IMAGE_BACKEND = "pillow"
