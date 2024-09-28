@@ -224,5 +224,6 @@ CKEDITOR_CONFIGS = {
 
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:5173',  # Add your frontend URL here
+    'http://localhost:5173',
+    'https://kgl-safaris-client-production.up.railway.app',
 ]
