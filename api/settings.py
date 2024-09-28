@@ -32,6 +32,9 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'corsheaders',
     "whitenoise.runserver_nostatic",
+
+    # Custom app
+    'home',
 ]
 
 MIDDLEWARE = [
